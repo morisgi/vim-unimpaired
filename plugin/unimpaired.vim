@@ -216,6 +216,7 @@ call s:option_map('u', 'cursorcolumn')
 nnoremap [od :diffthis<CR>
 nnoremap ]od :diffoff<CR>
 nnoremap cod :<C-R>=&diff ? 'diffoff' : 'diffthis'<CR><CR>
+call s:option_map('f', 'foldenable')
 call s:option_map('h', 'hlsearch')
 call s:option_map('i', 'ignorecase')
 call s:option_map('l', 'list')
